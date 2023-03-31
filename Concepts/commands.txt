@@ -1,0 +1,25 @@
+Mongo
+    show databases // Shows the mongo databases (1)
+    cls
+    use [bd_name] // Uses the database, if there is no database like that, creates one (2)
+    db.[Table].insertOne({
+        [attributeName]: [attribute]
+    }); // Inserts a new attribute into the table, creates a table if there is none (3)
+    db.[Table].find(); // Outputs the attributes of the table (4)
+    db.[Table].drop(); // Deletes the table (5)
+    db.[Table].renameCollection([newName]); // Renames the table (6)
+    db.dropDatabase(); // Deletes the database (7)
+    db.createCollection("Profile", {
+        validator: {
+            $jsonSchema:{
+            bsonType: "object",
+            required: ["profileName", "profileState"],
+            properties: {
+                profileName: {bsonType: "string"},
+                profileState: {enum: [1, 2]}
+            }
+        }
+        }
+    }) // Creates a table and sets it's properties (8)
+    db.help(); // Guess (9)
+    db.[Table].createIndex({[attribute]: [Number between 1 and -1]}, {unique:true}); // Makes an index, use 1 for ascending order and -1 for descending order

@@ -1,0 +1,81 @@
+const database = "db_hubrandity";
+use (database);
+
+/* db.createCollection("Brand", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["brandName", "regDate"],
+            properties: {
+                brandName: {bsonType: "string"},
+                regDate: {bsonType: ["date", "null"]}
+            }
+        }
+    }
+});
+
+db.Brand.createIndex({brandName: 1}, {unique: true});
+db.Brand.createIndex({brandName: "text"}); */
+
+/* db.Brand.insertMany([
+    {
+        brandName: "Ligma",
+        regDate: new Date()
+    }, 
+    {
+        brandName: "Joe",
+        regDate: new Date()
+    }, 
+    {
+        brandName: "Serga",
+        regDate: new Date()
+    }
+]) */
+
+/* db.createCollection("PC", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["RAM", "pcPrice", "brandCode"],
+            properties: {
+                RAM: {bsonType: "int"},
+                pcPrice: {bsonType: "double"},
+                brandCode: {bsonType: "objectId"}
+            }
+        }
+    }
+});
+
+const joeId = db.Brand.findOne({brandName: "Joe"}, {_id: 1});
+const ligmaId = db.Brand.findOne({brandName: "Ligma"}, {_id: 1});
+const sergaId = db.Brand.findOne({brandName: "Serga"}, {_id: 1});
+
+db.PC.insertMany([
+    {
+        RAM: 64,
+        pcPrice: 69420.9,
+        brandCode: ligmaId._id
+    }, 
+    {
+        RAM: 8,
+        pcPrice: 42000.1,
+        brandCode: sergaId._id
+    }, 
+    {
+        RAM: 12,
+        pcPrice: 4335.1,
+        brandCode: joeId._id
+    }, 
+    {   
+        RAM: 12,
+        pcPrice: 696969.99,
+        brandCode: ligmaId._id
+    }, 
+    {
+        RAM: 32,
+        pcPrice: 8008.99,
+        brandCode: joeId._id
+    }
+]); */
+
+db.PC.find().sort({pcPrice: 1});

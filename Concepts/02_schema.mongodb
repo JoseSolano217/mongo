@@ -1,0 +1,27 @@
+const database = "db_schema";
+use(database);
+
+/* db.createCollection("Profile", {
+    validator: {
+        $jsonSchema:{
+        bsonType: "object",
+        required: ["profileName", "profileState"],
+        properties: {
+            profileName: {bsonType: "string"},
+            profileState: {enum: [1, 2]}
+        }
+    }
+    }
+}) */
+
+db.Profile.insertOne({
+    profileName: "Bdmin",
+    profileState: 1,
+    options: ["Create", "List", "Delete", "Edit"] 
+})
+
+//db.Profile.createIndex({"profileName": 1}, {unique:true});
+
+db.Profile.find();
+
+// db.dropDatabase();

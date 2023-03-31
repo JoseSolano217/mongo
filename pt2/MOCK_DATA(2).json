@@ -1,0 +1,702 @@
+[
+  {
+    "bookName": "Odocoileus hemionus",
+    "bookPages": 327,
+    "bookAuthor": "Mule deer",
+    "bookValue": 52951.8,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Orcinus orca",
+    "bookPages": 28,
+    "bookAuthor": "Orca",
+    "bookValue": 66685.21,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Estrilda erythronotos",
+    "bookPages": 213,
+    "bookAuthor": "Black-cheeked waxbill",
+    "bookValue": 956.87,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Boa constrictor mexicana",
+    "bookPages": 325,
+    "bookAuthor": "Boa, mexican",
+    "bookValue": 4548.28,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Isoodon obesulus",
+    "bookPages": 342,
+    "bookAuthor": "Bandicoot, short-nosed",
+    "bookValue": 51047.48,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Chauna torquata",
+    "bookPages": 297,
+    "bookAuthor": "Screamer, crested",
+    "bookValue": 27894.69,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Alopochen aegyptiacus",
+    "bookPages": 57,
+    "bookAuthor": "Egyptian goose",
+    "bookValue": 47970.7,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Kobus leche robertsi",
+    "bookPages": 250,
+    "bookAuthor": "Kafue flats lechwe",
+    "bookValue": 1785.62,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Alouatta seniculus",
+    "bookPages": 64,
+    "bookAuthor": "Red howler monkey",
+    "bookValue": 67697.57,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Heloderma horridum",
+    "bookPages": 104,
+    "bookAuthor": "Monster, gila",
+    "bookValue": 39764.5,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Cordylus giganteus",
+    "bookPages": 246,
+    "bookAuthor": "Lizard, giant girdled",
+    "bookValue": 2344.5,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Pteronura brasiliensis",
+    "bookPages": 22,
+    "bookAuthor": "Brazilian otter",
+    "bookValue": 40801.1,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Merops nubicus",
+    "bookPages": 57,
+    "bookAuthor": "Bee-eater, carmine",
+    "bookValue": 2090.84,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Corvus albus",
+    "bookPages": 227,
+    "bookAuthor": "Pied crow",
+    "bookValue": 60481.98,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Chelodina longicollis",
+    "bookPages": 254,
+    "bookAuthor": "Snake-necked turtle",
+    "bookValue": 90376.25,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Alopochen aegyptiacus",
+    "bookPages": 353,
+    "bookAuthor": "Egyptian goose",
+    "bookValue": 99328.47,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Canis mesomelas",
+    "bookPages": 5,
+    "bookAuthor": "Jackal, silver-backed",
+    "bookValue": 16508.4,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Neophron percnopterus",
+    "bookPages": 290,
+    "bookAuthor": "Vulture, egyptian",
+    "bookValue": 48545.53,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Gopherus agassizii",
+    "bookPages": 61,
+    "bookAuthor": "Desert tortoise",
+    "bookValue": 91196.15,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Acrobates pygmaeus",
+    "bookPages": 177,
+    "bookAuthor": "Pygmy possum",
+    "bookValue": 13983.15,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Amblyrhynchus cristatus",
+    "bookPages": 284,
+    "bookAuthor": "Iguana, marine",
+    "bookValue": 40912.34,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Nannopterum harrisi",
+    "bookPages": 2,
+    "bookAuthor": "Cormorant, flightless",
+    "bookValue": 80129.29,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Delphinus delphis",
+    "bookPages": 386,
+    "bookAuthor": "Dolphin, common",
+    "bookValue": 40769.4,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Paraxerus cepapi",
+    "bookPages": 304,
+    "bookAuthor": "Squirrel, smith's bush",
+    "bookValue": 65508.21,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Ctenophorus ornatus",
+    "bookPages": 238,
+    "bookAuthor": "Dragon, ornate rock",
+    "bookValue": 56700.52,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Lycosa godeffroyi",
+    "bookPages": 129,
+    "bookAuthor": "Wolf spider",
+    "bookValue": 54024.79,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Buteo regalis",
+    "bookPages": 246,
+    "bookAuthor": "Ferruginous hawk",
+    "bookValue": 88384.36,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Phalacrocorax varius",
+    "bookPages": 338,
+    "bookAuthor": "Cormorant, pied",
+    "bookValue": 21401.3,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Ourebia ourebi",
+    "bookPages": 125,
+    "bookAuthor": "Oribi",
+    "bookValue": 42561.61,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Philetairus socius",
+    "bookPages": 60,
+    "bookAuthor": "Weaver, sociable",
+    "bookValue": 92975.72,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Mazama gouazoubira",
+    "bookPages": 48,
+    "bookAuthor": "Brown brocket",
+    "bookValue": 36837.36,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Ardea cinerea",
+    "bookPages": 175,
+    "bookAuthor": "Grey heron",
+    "bookValue": 68243.44,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Galictis vittata",
+    "bookPages": 235,
+    "bookAuthor": "Huron",
+    "bookValue": 28798.16,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Phascogale calura",
+    "bookPages": 289,
+    "bookAuthor": "Red-tailed wambenger",
+    "bookValue": 26855.31,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Cebus apella",
+    "bookPages": 7,
+    "bookAuthor": "Black-capped capuchin",
+    "bookValue": 53637.1,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Tringa glareola",
+    "bookPages": 236,
+    "bookAuthor": "Spotted wood sandpiper",
+    "bookValue": 18580.03,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Carphophis sp.",
+    "bookPages": 15,
+    "bookAuthor": "Worm snake (unidentified)",
+    "bookValue": 65968.48,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Tamandua tetradactyla",
+    "bookPages": 145,
+    "bookAuthor": "Southern tamandua",
+    "bookValue": 4179.8,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Dasyprocta leporina",
+    "bookPages": 245,
+    "bookAuthor": "Agouti",
+    "bookValue": 54848.39,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Melursus ursinus",
+    "bookPages": 18,
+    "bookAuthor": "Sloth bear",
+    "bookValue": 28913.07,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Diomedea irrorata",
+    "bookPages": 10,
+    "bookAuthor": "Galapagos albatross",
+    "bookValue": 79239.95,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Acridotheres tristis",
+    "bookPages": 252,
+    "bookAuthor": "Common mynah",
+    "bookValue": 31740.6,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Diceros bicornis",
+    "bookPages": 32,
+    "bookAuthor": "Rhinoceros, black",
+    "bookValue": 78897.56,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Lophoaetus occipitalis",
+    "bookPages": 79,
+    "bookAuthor": "Long-crested hawk eagle",
+    "bookValue": 68526.9,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Cordylus giganteus",
+    "bookPages": 374,
+    "bookAuthor": "Giant girdled lizard",
+    "bookValue": 50886.44,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Giraffe camelopardalis",
+    "bookPages": 146,
+    "bookAuthor": "Giraffe",
+    "bookValue": 38596.09,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Phascogale calura",
+    "bookPages": 36,
+    "bookAuthor": "Red-tailed phascogale",
+    "bookValue": 82355.47,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Felis concolor",
+    "bookPages": 73,
+    "bookAuthor": "Mountain lion",
+    "bookValue": 43233.26,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Haliaetus leucogaster",
+    "bookPages": 335,
+    "bookAuthor": "Eagle, white-bellied sea",
+    "bookValue": 15163.93,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Notechis semmiannulatus",
+    "bookPages": 168,
+    "bookAuthor": "Tiger snake",
+    "bookValue": 4673.78,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Geococcyx californianus",
+    "bookPages": 236,
+    "bookAuthor": "Greater roadrunner",
+    "bookValue": 19481.41,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Ictonyx striatus",
+    "bookPages": 280,
+    "bookAuthor": "African polecat",
+    "bookValue": 63070.29,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Buteo jamaicensis",
+    "bookPages": 168,
+    "bookAuthor": "Hawk, red-tailed",
+    "bookValue": 97606.17,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "unavailable",
+    "bookPages": 399,
+    "bookAuthor": "Snake (unidentified)",
+    "bookValue": 44341.17,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Pituophis melanaleucus",
+    "bookPages": 372,
+    "bookAuthor": "Pine snake (unidentified)",
+    "bookValue": 46018.21,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Tayassu tajacu",
+    "bookPages": 80,
+    "bookAuthor": "Peccary, collared",
+    "bookValue": 59786.69,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Paraxerus cepapi",
+    "bookPages": 246,
+    "bookAuthor": "Squirrel, grey-footed",
+    "bookValue": 5553.89,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "unavailable",
+    "bookPages": 154,
+    "bookAuthor": "Gull, herring",
+    "bookValue": 3098.55,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Geochelone radiata",
+    "bookPages": 33,
+    "bookAuthor": "Tortoise, radiated",
+    "bookValue": 76284.94,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Propithecus verreauxi",
+    "bookPages": 302,
+    "bookAuthor": "Sifaka, verreaux's",
+    "bookValue": 14368.31,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Felis silvestris lybica",
+    "bookPages": 221,
+    "bookAuthor": "Cat, european wild",
+    "bookValue": 9515.14,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Felis caracal",
+    "bookPages": 277,
+    "bookAuthor": "Lynx, african",
+    "bookValue": 4587.43,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Toxostoma curvirostre",
+    "bookPages": 303,
+    "bookAuthor": "Curve-billed thrasher",
+    "bookValue": 56925.17,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Plegadis ridgwayi",
+    "bookPages": 129,
+    "bookAuthor": "Puna ibis",
+    "bookValue": 55078.17,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Coluber constrictor",
+    "bookPages": 252,
+    "bookAuthor": "Snake, racer",
+    "bookValue": 4124.8,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Alouatta seniculus",
+    "bookPages": 221,
+    "bookAuthor": "Monkey, red howler",
+    "bookValue": 57501.87,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Phalaropus fulicarius",
+    "bookPages": 240,
+    "bookAuthor": "Red phalarope",
+    "bookValue": 28952.56,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Dasyurus viverrinus",
+    "bookPages": 333,
+    "bookAuthor": "Native cat",
+    "bookValue": 65729.53,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Caiman crocodilus",
+    "bookPages": 311,
+    "bookAuthor": "Caiman, spectacled",
+    "bookValue": 86054.24,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Varanus salvator",
+    "bookPages": 263,
+    "bookAuthor": "Monitor, two-banded",
+    "bookValue": 4571.29,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Meleagris gallopavo",
+    "bookPages": 61,
+    "bookAuthor": "Wild turkey",
+    "bookValue": 49858.32,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Streptopelia decipiens",
+    "bookPages": 250,
+    "bookAuthor": "Dove, mourning collared",
+    "bookValue": 35286.63,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Morelia spilotes variegata",
+    "bookPages": 32,
+    "bookAuthor": "Python, carpet",
+    "bookValue": 60468.33,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Colaptes campestroides",
+    "bookPages": 30,
+    "bookAuthor": "Campo flicker",
+    "bookValue": 39223.94,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Bos mutus",
+    "bookPages": 155,
+    "bookAuthor": "Yak",
+    "bookValue": 86137.08,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Microcavia australis",
+    "bookPages": 188,
+    "bookAuthor": "Cuis",
+    "bookValue": 98566.62,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Camelus dromedarius",
+    "bookPages": 266,
+    "bookAuthor": "Camel, dromedary",
+    "bookValue": 64918.17,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Elephas maximus bengalensis",
+    "bookPages": 285,
+    "bookAuthor": "Elephant, asian",
+    "bookValue": 1728.27,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Chionis alba",
+    "bookPages": 123,
+    "bookAuthor": "Sheathbill, snowy",
+    "bookValue": 79383.68,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Phalacrocorax niger",
+    "bookPages": 107,
+    "bookAuthor": "Cormorant, javanese",
+    "bookValue": 38786.66,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Drymarchon corias couperi",
+    "bookPages": 224,
+    "bookAuthor": "Eastern indigo snake",
+    "bookValue": 94535.54,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Trichoglossus chlorolepidotus",
+    "bookPages": 118,
+    "bookAuthor": "Lorikeet, scaly-breasted",
+    "bookValue": 99982.12,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Alligator mississippiensis",
+    "bookPages": 394,
+    "bookAuthor": "Alligator, mississippi",
+    "bookValue": 85762.68,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Uraeginthus angolensis",
+    "bookPages": 262,
+    "bookAuthor": "Bleu, blue-breasted cordon",
+    "bookValue": 36334.72,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Anathana ellioti",
+    "bookPages": 355,
+    "bookAuthor": "Mandras tree shrew",
+    "bookValue": 54121.03,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Gazella thompsonii",
+    "bookPages": 338,
+    "bookAuthor": "Thomson's gazelle",
+    "bookValue": 78767.09,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Phalacrocorax brasilianus",
+    "bookPages": 205,
+    "bookAuthor": "Cormorant, neotropic",
+    "bookValue": 77423.9,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Lutra canadensis",
+    "bookPages": 44,
+    "bookAuthor": "North American river otter",
+    "bookValue": 55670.92,
+    "genreCode": horrorId._id
+  },
+  {
+    "bookName": "Spizaetus coronatus",
+    "bookPages": 355,
+    "bookAuthor": "Hawk-eagle, crowned",
+    "bookValue": 69390.23,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Macropus eugenii",
+    "bookPages": 315,
+    "bookAuthor": "Wallaby, tammar",
+    "bookValue": 50255.44,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Lycaon pictus",
+    "bookPages": 110,
+    "bookAuthor": "African wild dog",
+    "bookValue": 26618.1,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Lasiodora parahybana",
+    "bookPages": 381,
+    "bookAuthor": "Tarantula, salmon pink bird eater",
+    "bookValue": 98567.21,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Genetta genetta",
+    "bookPages": 326,
+    "bookAuthor": "Genet, common",
+    "bookValue": 71107.69,
+    "genreCode": romanceId._id
+  },
+  {
+    "bookName": "Kobus leche robertsi",
+    "bookPages": 11,
+    "bookAuthor": "Lechwe, kafue flats",
+    "bookValue": 58882.71,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Climacteris melanura",
+    "bookPages": 233,
+    "bookAuthor": "Creeper, black-tailed tree",
+    "bookValue": 8080.57,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Felis concolor",
+    "bookPages": 393,
+    "bookAuthor": "Cougar",
+    "bookValue": 6544.78,
+    "genreCode": existId._id
+  },
+  {
+    "bookName": "Lorythaixoides concolor",
+    "bookPages": 186,
+    "bookAuthor": "Bird, bare-faced go away",
+    "bookValue": 71110.89,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Naja haje",
+    "bookPages": 186,
+    "bookAuthor": "Cobra, egyptian",
+    "bookValue": 19794.41,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Coendou prehensilis",
+    "bookPages": 95,
+    "bookAuthor": "Tree porcupine",
+    "bookValue": 75784.58,
+    "genreCode": comedyId._id
+  },
+  {
+    "bookName": "Canis mesomelas",
+    "bookPages": 32,
+    "bookAuthor": "Jackal, silver-backed",
+    "bookValue": 45119.05,
+    "genreCode": comedyId._id
+  }
+]

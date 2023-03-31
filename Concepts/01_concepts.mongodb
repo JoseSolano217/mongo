@@ -1,0 +1,23 @@
+const database = "db_concepts";
+use(database);
+
+/* db.Profile.insertOne({
+    profileName: "Admin"
+}); */
+
+//db.Profile.drop();
+
+//db.Profile.renameCollection("ExtraProfile");
+
+/* db.ExtraProfile.insertOne({
+    profileName: "Client",
+    profileState: 100
+}); */
+
+/* db.ExtraProfile.insertOne({
+    profileName: "Client",
+    profileState: 100,
+    profileDate: new Date("2022-01-30")
+}); */
+
+db.dropDatabase();

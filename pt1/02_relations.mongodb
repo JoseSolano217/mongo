@@ -1,0 +1,64 @@
+const database = "db_relationships";
+use (database);
+
+/* db.createCollection("Profile", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["profileName", "profileState"],
+            properties: {
+                profileName: {bsonType: "string"},
+                profileState: {enum: [1, 2]}
+            }
+        }
+    }
+});
+
+db.Profile.createIndex({profileName: 1}, {unique: true}); */
+
+/* db.Profile.insertMany([
+    {
+        profileName: "Licker",
+        profileState: 1
+    },
+    {
+        profileName: "Sniffer",
+        profileState: 2
+    },
+    {
+        profileName: "Eater",
+        profileState: 1
+    }
+]) */
+
+/* db.createCollection("User", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["userName", "userEmail", "userPassword", "regDate", "userState", "userCode"],
+            properties: {
+                userName: {bsonType: "string"},
+                userEmail: {bsonType: "string"},
+                userPassword: {bsonType: "string"},
+                regDate: {bsonType: ["date", "null"]},
+                userState: {enum: [1, 2]},
+                userCode: {bsonType: "objectId"}
+            }
+        }
+    }
+});
+
+db.User.createIndex({userName: 1}, {unique: true});
+db.User.createIndex({userEmail: 1}, {unique: true});
+db.User.createIndex({userName: "text"}); */
+
+/* const kickerId = db.Profile.findOne({profileName: "Sniffer"}, {_id: 1});
+
+db.User.insertOne({
+    userName: "Jumper",
+    userEmail: "But here's the jumper",
+    userPassword: "biuh98g76857e46dut7ifkgli87otui",
+    regDate: new Date(),
+    userState: 1,
+    userCode: kickerId._id
+}); */

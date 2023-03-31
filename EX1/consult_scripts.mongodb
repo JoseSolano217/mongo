@@ -1,0 +1,32 @@
+const database = "db_reisen_gaming";
+use(database);
+
+// Game - Platform
+// Player - Game
+
+/* db.Game.aggregate([{
+    $lookup: {
+        from: 'Platform',
+        localField: 'platformCode',
+        foreignField: '_id',
+        as: 'Platform'
+    }
+}]); */
+
+/* db.Player.aggregate([{
+    $lookup: {
+        from: 'Game',
+        localField: 'gameCode',
+        foreignField: '_id',
+        as: 'Game'
+    }
+}]); */
+
+// Los jugadores con nombre de usuario que contenga doe, y cuya fecha de nacimiento sea mayor que el 03/04/2015
+// db.Player.find({$and: [{playerName: {$regex: /j/i}}, {playerBirthDate: {$gte: new Date('03/04/2015')}}]})
+
+// Los jugadores que hayan nacido antes del 03/04/2018, solo después de los primeros 200 registros
+// db.Player.find({playerBirthDate: {$lte: new Date('03/04/2018')}}).skip(200)
+
+// Los jugadores cuyo nombre contenga j y f, no busca después de las primeras 350 consultas
+// db.Player.find({$and: [{playerName: {$regex: /j/i}}, {playerName: {$regex: /f/i}}]}).limit(350);

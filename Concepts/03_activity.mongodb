@@ -1,0 +1,26 @@
+const database = "db_activity";
+use(database);
+
+/* db.createCollection("Field", {
+    validator: {
+        $jsonSchema:{
+        bsonType: "object",
+        required: ["fieldName", "fieldDescription", "fieldState"],
+        properties: {
+            fieldName: {bsonType: "string"},
+            fieldDescription: {bsonType: "string"},
+            fieldState: {enum: [1, 2, 3]}
+        }
+    }
+    }
+})
+
+db.Field.createIndex({"fieldName": 1}, {unique:true}); */
+
+db.Field.insertOne({
+    fieldName: "Alchemical field",
+    fieldDescription: "It is a terrible skill to have",
+    fieldState: 3
+})
+
+db.Field.find();

@@ -1,0 +1,35 @@
+const database = "db_query";
+use(database);
+
+// db.Category.findOne({categoryName: "Tools"}, {categoryName: 1})
+
+// db.Category.findOne({categoryName: {$regex: /horrors/i}}, {categoryName: 1})
+
+// db.Product.find({productName: {$regex: /Sex/i}}, {productName: 1}).sort({productName: 1})
+
+// db.Product.find({IVA: {$lt: 12}}, {IVA: 1}).count()
+
+// db.Product.find({IVA: {$gt: 12}}, {IVA: 1}).count()
+
+// MM/DD/AA
+/* db.Product.find({expireDate: {$gt: new Date('03/04/2023')}}, 
+{expireDate: 1, productName: 1}).sort({expireDate: 1}) */
+
+/* db.Product.find({IVA: {$lte: 12, $gte:8}}, 
+{productName: 1, IVA: 1, productAmount: 1}) */
+
+/* db.Category.find({categoryName: {$eq: "Tools"}}, 
+{categoryName: 1, categoryState: 1}).sort({categoryName: 1}) */
+
+/* db.Product.find({$and: [{productName: /a/i}, {IVA: {$gte: 9}}]}, 
+{productName: 1, productAmount: 1, IVA: 1}).sort({productName: 1}) */
+
+/* const horrorsId = db.Category.findOne({categoryName: /horrors/i}, {_id: 1})
+db.Product.find({$or: [{productAmount: {$lt: 50}}, {categoryCode: horrorsId}]}, 
+{productAmount: 1, categoryCode: 1}) */
+
+// db.Product.find().skip(50).count()
+
+// db.Product.find().limit(10)
+
+// db.Product.find().skip(10).limit(20).count()
